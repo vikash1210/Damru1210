@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class controller {
 
-    @GetMapping("/hello")
+    @GetMapping("/Test")
     public ResponseEntity<String> hello() {
-        return ResponseEntity.ok("Hello from AWS Deploy!");
+        return ResponseEntity.ok("Hello vikash I'm running on AWS Deploy!");
     }
 }
